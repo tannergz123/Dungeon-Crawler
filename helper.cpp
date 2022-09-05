@@ -3,7 +3,6 @@
 using std::cout, std::endl;
 
 
-// do not change
 void printInstructions() {
     cout << endl;
     cout << "---------------------------------------------------------" << endl;
@@ -25,7 +24,7 @@ void printInstructions() {
     cout << endl;
 }
 
-// do not change
+
 void outputMap(char** map, const int maxRow, const int maxCol) {
     // output top border
     cout << "+";
@@ -65,7 +64,6 @@ void outputMap(char** map, const int maxRow, const int maxCol) {
     cout << endl;
 }
 
-// do not change
 void outputStatus(const int status, const Player& player, int moves) {
     if (status != STATUS_STAY) {
         cout << "You have moved to row " << player.row << " and column " << player.col << endl;
