@@ -45,7 +45,6 @@ const char MOVE_RIGHT     = 'd';    // right movement
 // function signatures, do not change
 
 /**
- * TODO(student): write tests for this function
  * Load representation of the dungeon level from file into the 2D map.
  * Calls createMap to allocate the 2D array.
  * @param   fileName    File name of dungeon level.
@@ -58,7 +57,6 @@ const char MOVE_RIGHT     = 'd';    // right movement
 char** loadLevel(const std::string& fileName, int& maxRow, int& maxCol, Player& player);
 
 /**
- * TODO(student): write tests for this function
  * Translate the character direction input by the user into row or column change.
  * That is, updates the nextRow or nextCol according to the player's movement direction.
  * @param   input       Character input by the user which translates to a direction.
@@ -70,7 +68,6 @@ char** loadLevel(const std::string& fileName, int& maxRow, int& maxCol, Player& 
 void getDirection(char input, int& nextRow, int& nextCol);
 
 /**
- * TODO: [suggested] Student implement this function
  * Allocate the 2D map array.
  * Initialize each cell to TILE_OPEN.
  * @param   maxRow      Number of rows in the dungeon table (aka height).
@@ -90,7 +87,6 @@ char** createMap(int maxRow, int maxCol);
 void deleteMap(char**& map, int& maxRow);
 
 /**
- * TODO(student): write tests for this function
  * Resize the 2D map by doubling both dimensions.
  * Copy the current map contents to the right, diagonal down, and below.
  * Do not duplicate the player, and remember to avoid memory leaks!
@@ -103,7 +99,6 @@ void deleteMap(char**& map, int& maxRow);
 char** resizeMap(char** map, int& maxRow, int& maxCol);
 
 /**
- * TODO(student): write tests for this function
  * Checks if the player can move in the specified direction and performs the move if so.
  * Cannot move out of bounds or onto TILE_PILLAR or TILE_MONSTER.
  * Cannot move onto TILE_EXIT without at least one treasure. 
@@ -122,7 +117,6 @@ char** resizeMap(char** map, int& maxRow, int& maxCol);
 int doPlayerMove(char** map, int maxRow, int maxCol, Player& player, int nextRow, int nextCol);
 
 /**
- * TODO(student): write tests for this function
  * Update monster locations:
  * We check up, down, left, right from the current player position.
  * If we see an obstacle, there is no line of sight in that direction, and the monster does not move.
