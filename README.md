@@ -7,4 +7,6 @@ Dungeoncrawler.cpp contains the main function and is where the user is prompted 
 
 Logic.cpp constains the map reader function by turning the map into a 2d dynamic array. It also contains all of the interaction logic between the player model and surrounding objects.
 
-Logic.h
+Helper.cpp helps to display the map during the gameplay and also contains the prompts the user will see.
+
+Logic.h constains the constants mapping what each symbol represents in the game.
