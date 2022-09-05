@@ -3,7 +3,7 @@ Created a simple 2d game where when given an input of a dungeon map, the user is
 
 The maps are labeled easy or hard depending on their complexity and size.
 
-Function.cpp
+Dungeoncrawler.cpp contains the main function and is where the user is prompted for inputs.
 Function.h
 Logic.cpp
 Logic.h
