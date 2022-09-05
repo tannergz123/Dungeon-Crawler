@@ -9,4 +9,4 @@ Logic.cpp contains the map reader function by turning the map into a 2d dynamic 
 
 Helper.cpp helps to display the map during the gameplay and also contains the prompts the user will see.
 
-Logic.h constains the constants mapping what each symbol represents in the game.
+Logic.h includes the constants telling what each symbol represents in the game.
